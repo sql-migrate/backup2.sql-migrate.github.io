@@ -3,31 +3,31 @@
     <url>
         <loc>https://www.postgrescompare.com</loc>
         <lastmod>2017-04-22</lastmod>
-        <changefreq>1</changefreq>
+        <changefreq>always</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.postgrescompare.com/articles</loc>
         <lastmod>2017-04-22</lastmod>
-        <changefreq>1</changefreq>
+        <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.postgrescompare.com/about</loc>
         <lastmod>2017-04-22</lastmod>
-        <changefreq>4</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.postgrescompare.com/contact</loc>
         <lastmod>2017-04-22</lastmod>
-        <changefreq>5</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.postgrescompare.com/2017/04/20/version_control_options.html</loc>
         <lastmod>2017-04-21</lastmod>
-        <changefreq>6</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 </urlset>
