@@ -1,2 +1,2 @@
 Website and blog for
-https://www.postgrescompare.com
+[Postgres Compare, compare PostgreSQL databases](https://www.postgrescompare.com)
