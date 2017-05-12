@@ -30,4 +30,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
+    <url>
+        <loc>https://www.postgrescompare.com/2017/05/12/system_catalogs_for_column_definitions.html</loc>
+        <lastmod>2017-05-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 </urlset>
