@@ -36,4 +36,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
+    <url>
+        <loc>https://www.postgrescompare.com/2017/05/16/guiding-principles.html</loc>
+        <lastmod>2017-05-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 </urlset>
