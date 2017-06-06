@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Contact
 subtitle: "Let us know how we're doing"
 permalink: /contact
