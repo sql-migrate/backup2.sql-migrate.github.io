@@ -42,4 +42,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
+    <url>
+        <loc>https://www.postgrescompare.com/2017/06/06/create-database.html</loc>
+        <lastmod>2017-06-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 </urlset>
