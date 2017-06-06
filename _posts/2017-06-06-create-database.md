@@ -15,6 +15,8 @@ CREATE DATABASE name
            [ CONNECTION LIMIT [=] connlimit ]
            [ IS_TEMPLATE [=] istemplate ] ]
 ```
+[CREATE DATABASE documentation](https://www.postgresql.org/docs/current/static/sql-createtable.html)
+
 
 |Name|Type|References|Description|
 |----|----|----------|-----------|
@@ -32,3 +34,4 @@ CREATE DATABASE name
 |datminmxid|	xid|	| 	All multixact IDs before this one have been replaced with a transaction ID in this database. This is used to track whether the database needs to be vacuumed in order to prevent multixact ID wraparound or to allow pg_multixact to be shrunk. It is the minimum of the per-table pg_class.relminmxid values.
 |dattablespace|	oid|pg_tablespace.oid|	The default tablespace for the database. Within this database, all tables for which pg_class.reltablespace is zero will be stored in this tablespace; in particular, all the non-shared system catalogs will be there.
 |datacl|	aclitem[]	|| 	Access privileges; see GRANT and REVOKE for details|
+[pg_class documentation](https://www.postgresql.org/docs/current/static/catalog-pg-class.html)
