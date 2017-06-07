@@ -3,6 +3,12 @@ layout: post
 title: CREATE DATABASE and the pg_database catalog
 ---
 
+The CREATE DATABASE statement is used to create a new PostgreSQL database. It does so by cloning an existing database, a template. PostgreSQL comes with two template databases, ```template0``` and ```template1```. The difference between ```template0``` and ```template1``` is their intended use. ```template1``` is the default template when creating a new database, it can also be connected to and any custom objects that new databases should have can be created there. ```template0``` does not accept connections and is therefore a clean source for those times when ```template1``` has become messy for some reason.
+
+When a new database is created a new row is added to the ```pg_database``` catalog. ```pg_database``` stores all the database settings that are available in the ```CREATE DATABASE``` statement. Collation, encoding and tablespace information along with connectable and connection limits are stored here. 
+
+```pg_database``` is a shared catalog that is available and shows the same data no matter what database you are connected to. Interestingly for [comparing PostgreSQL databases] the dependencies a database has on its collation, tablespace and owner are not captured in ```pg_shdepend```, the catalog that contains dependencies between cluster-wide objects.
+
 ```SQL
 CREATE DATABASE name
     [ [ WITH ] [ OWNER [=] user_name ]
@@ -15,7 +21,7 @@ CREATE DATABASE name
            [ CONNECTION LIMIT [=] connlimit ]
            [ IS_TEMPLATE [=] istemplate ] ]
 ```
-[CREATE DATABASE documentation](https://www.postgresql.org/docs/current/static/sql-createtable.html)
+[CREATE DATABASE documentation](https://www.postgresql.org/docs/current/static/sql-createdatabase.html)
 
 
 |Name|Type|References|Description|
@@ -35,4 +41,4 @@ CREATE DATABASE name
 |dattablespace|	oid|pg_tablespace.oid|	The default tablespace for the database. Within this database, all tables for which pg_class.reltablespace is zero will be stored in this tablespace; in particular, all the non-shared system catalogs will be there.
 |datacl|	aclitem[]	|| 	Access privileges; see GRANT and REVOKE for details|
 
-[pg_class documentation](https://www.postgresql.org/docs/current/static/catalog-pg-class.html)
+[pg_class documentation](https://www.postgresql.org/docs/current/static/catalog-pg-database.html)
