@@ -7,7 +7,7 @@ User interface design is hard. There is something about the frontend that doesn'
 
 I'm trying to create something different with Postgres Compare. Functional, fast and intuitive. Elements of a web app but primarily lives on the desktop. Often, while daydreaming about what might be, I have hit a brick wall as to how the UI might work. How can I save the user some setup time while also being flexible? How can I DRY up the work that Postgres Compare has to do so it never forgets? 
 
-![alt text](../images/pg_compare.png "Postgres Compare prototype screenshot")
+![alt text](https://www.postgrescompare.com/images/pg_compare.png "Postgres Compare prototype screenshot")
 
 To work through these and so many other questions I've been building a prototype UI so I can get a feel for where some interactions might breakdown and also what the core engine would have to be capable of to make my dream application. I used [Electron](http://electron.atom.io) and a wonderful course from [Rob Conery](https://www.twitter.com/robconery) at [Pluralsight](https://app.pluralsight.com/library/courses/electron-playbook/table-of-contents) to produce the skeleton app linked below.
 
