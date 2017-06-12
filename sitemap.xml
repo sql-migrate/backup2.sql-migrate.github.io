@@ -48,11 +48,16 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
-        <url>
+    <url>
         <loc> https://www.postgrescompare.com/2017/06/07/prototype.html</loc>
         <lastmod>2017-06-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
-   
+     <url>
+        <loc>https://www.postgrescompare.com/2017/06/11/pg_catalog_constraints.html</loc>
+        <lastmod>2017-06-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 </urlset>
