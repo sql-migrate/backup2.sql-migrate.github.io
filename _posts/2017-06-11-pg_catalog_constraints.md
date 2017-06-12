@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Documenting relationships in the pg_catalog schema
+description: A list of resources to help navigate PostgreSQL's system catalogs
 ---
 
 While exploring the ```pg_catalog``` schema I noticed that while the relationships between the tables are documented, 
