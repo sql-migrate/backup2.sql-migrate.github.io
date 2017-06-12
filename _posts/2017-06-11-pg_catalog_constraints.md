@@ -2,6 +2,7 @@
 layout: post
 title: Documenting relationships in the pg_catalog schema
 description: A list of resources to help navigate PostgreSQL's system catalogs
+twitter_image: https://www.postgrescompare.com/pg_catalog/constrained_pg_catalog.png
 ---
 
 While exploring the ```pg_catalog``` schema I noticed that while the relationships between the tables are documented, 
