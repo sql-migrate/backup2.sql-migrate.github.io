@@ -42,12 +42,12 @@ you break the catalogs that way you get to keep both pieces.
                         regards, tom lane
  ```
  
- The ```pg_catalog``` is not to be messed with by your average user. There are checks that explicitly 
- block the user from editing the ```pg_catalog``` tables, as I discovered when I tried to add the foreign key relationships myself.
+The ```pg_catalog``` is not to be messed with by your average user. There are checks that explicitly 
+block the user from editing the ```pg_catalog``` tables, as I discovered when I tried to add the foreign key relationships myself.
  
- In order to help myself while developing [Postgres Compare](https://www.postgrescompare.com) and others should they ever need to 
- figure these links out I duplicated the ```pg_catalog``` into my own schema called ```constrained_pg_catalog```, added the primary and foreign keys as outlined in the documentation 
- and made use of a few tools to document and diagram the result:
+In order to help myself while developing [Postgres Compare](https://www.postgrescompare.com) and others should they ever need to 
+figure these links out I duplicated the ```pg_catalog``` of the v10beta into my own schema called ```constrained_pg_catalog```, added the primary and foreign keys as outlined in the documentation 
+and made use of a few tools to document and diagram the result:
  
  * [Documentation](https://www.postgrescompare.com/pg_catalog/index.html) produced by [DbDoc](http://www.yohz.com/dbdoc_details.htm) from [Yohz Software](https://www.yohz.com)
  * [Entity Relationship Diagram](https://www.postgrescompare.com/pg_catalog/constrained_pg_catalog.png) produced by [Navicat for PostgreSQL](https://navicat.com/en/products/navicat-for-postgresql)
@@ -58,5 +58,6 @@ you break the catalogs that way you get to keep both pieces.
  * [Organic Layout](https://www.postgrescompare.com/pg_catalog/constrained_pg_catalog_organic.pdf) 
  * [Orthogonal Layout](https://www.postgrescompare.com/pg_catalog/constrained_pg_catalog_orthogonal.pdf) 
  
- And the [pg_dump.sql](https://www.postgrescompare.com/pg_catalog/constrained_pg_catalog.sql) of ```constrained_pg_catalog``` itself.
+And the [pg_dump.sql](https://www.postgrescompare.com/pg_catalog/constrained_pg_catalog.sql) of ```constrained_pg_catalog``` itself.
  
+Hopefully this will be a useful reference, let me know if there are any other tools there that could export another useful resource from this schema.
