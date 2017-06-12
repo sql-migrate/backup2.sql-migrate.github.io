@@ -1,0 +1,158 @@
+html, body {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: 4px;
+  margin-left: 0px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+li {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 24px;
+	list-style-type: none;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+li.parent {
+	list-style-type: none; 
+	margin-top: 4px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	}
+	
+ul {
+	padding-left: 0;	
+	margin-left: 18px;
+}
+
+
+a:link { color : rgba(0, 0, 0, 1); text-decoration: none; }
+a:visited {color : rgba(0, 0, 0, 1); text-decoration: none; }
+a:hover {color : rgba(0, 0, 0, 1); text-decoration: none; }
+a:active {color : rgba(0, 0, 0, 1); text-decoration: none; }
+
+
+li
+{
+	position: relative;
+	margin-left: -15px; 
+	list-style: bullet;
+}
+
+li.item
+{
+	margin-left: -1px !important;
+	padding-bottom: 2px;
+}
+
+
+li.item a
+{
+	background: url('../images/16/bullet.png') 0 0 no-repeat; 
+	color: #4C4C4C; 
+	padding-left: 24px; 
+	text-decoration: none; 
+	display: block; 
+	list-style-type: disc;
+	list-style: bullet; 
+	margin-left: 6px;
+}
+
+
+li input
+{
+	position: absolute;
+	left: 0;
+	margin-left: 0;
+	opacity: 0;
+	z-index: 2;
+	cursor: pointer;
+	height: 1em;
+	width: 1em;
+	top: 0;
+}
+
+li input + ul
+{
+	background: url('../images/16/toggle-small-expand.png') 40px 0 no-repeat;
+	margin: -0.938em 0 0 -44px; /* 15px */
+	height: 1em;
+}
+li input + ul > li { display: none; margin-left: -14px !important; padding-left: 1px; }
+
+li label
+{
+	cursor: pointer;
+	display: block;
+	padding-left: 37px;
+}
+
+li label.server
+{
+	background: url('../images/16/server.png') 15px 1px no-repeat;
+}
+
+li label.database
+{
+	background: url('../images/16/database.png') 15px 1px no-repeat;
+}
+
+li label.schema
+{
+	background: url('../images/16/schema.png') 15px 1px no-repeat;
+}
+
+li label.table
+{
+	background: url('../images/16/table.png') 15px 1px no-repeat;
+}
+
+li label.tablestats
+{
+	background: url('../images/16/table_stats.png') 15px 1px no-repeat;
+}
+
+li label.indexstats
+{
+	background: url('../images/16/stats.png') 15px 1px no-repeat;
+}
+
+li label.view
+{
+	background: url('../images/16/view.png') 15px 1px no-repeat;
+}
+
+li label.domain
+{
+	background: url('../images/16/domain.png') 15px 1px no-repeat;
+}
+
+li label.sequence
+{
+	background: url('../images/16/sequence.png') 15px 1px no-repeat;
+}
+
+li label.function
+{
+	background: url('../images/16/function.png') 15px 1px no-repeat;
+}
+
+li label.triggerfunction
+{
+	background: url('../images/16/function.png') 15px 1px no-repeat;
+}
+
+li input:checked + ul
+{
+	background: url('../images/16/toggle-small.png') 40px 5px no-repeat;
+	margin: -1.25em 0 0 -44px; /* 20px */
+	padding: 1.563em 0 0 80px;
+	height: auto;
+}
+li input:checked + ul > li { display: block; margin: 0 0 0.125em;  /* 2px */}
+li input:checked + ul > li:last-child { margin: 0 0 0.063em; /* 1px */ }
+

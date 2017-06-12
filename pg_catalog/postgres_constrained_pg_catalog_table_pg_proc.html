@@ -1,0 +1,430 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="./css/contents.css">
+</head>
+<body>
+<div id="core">
+<div class="headerlink"><img src="./images/16/server.png" >  <a href="server_localhost.html">localhost</a> &nbsp;<img src="./images/16/database.png" >  <a href="postgres.html">postgres</a> &nbsp;<img src="./images/16/schema.png" >  <a href="postgres_constrained_pg_catalog.html">constrained_pg_catalog</a> &nbsp;<img src="./images/16/details.png" >  <a href="postgres_constrained_pg_catalog_tables_listing.html">Tables</a> &nbsp;<img src="./images/16/table.png" > pg_proc</div>
+<h2><img src="./images/32/table.png" >
+pg_proc
+</h2>
+<div class="section" id="props">
+<div class="tableheader">
+<img src="./images/32/about.png" >
+Properties</div>
+<div id="propstable">
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+<th>&nbsp;&nbsp;</th>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>OID</td><td>16829</td><td></td><td>Total size</td><td>16.0 KB</td></tr>
+<tr class="even"><td>Owner</td><td>postgres</td><td></td><td>Table size</td><td>0 bytes</td></tr>
+<tr><td>Tablespace</td><td>pg_default</td><td></td><td>Indexes size</td><td>8.0 KB</td></tr>
+<tr class="even"><td>Primary key(s)</td><td></td><td></td><td>Toast size</td><td>8.0 KB</td></tr>
+<tr><td>Estimated rows</td><td>0</td></tr>
+<tr class="even"><td>Comment</td><td colspan="4"></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sectionseparator"></div>
+<div class="section" id="columns">
+<div class="tableheader">
+<img src="./images/32/col.png" >
+Columns - 29</div>
+<div id="columnstable">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Length</th>
+<th>Default value</th>
+<th>Allow null</th>
+<th>Unique</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>proname</td>
+<td>name</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pronamespace</td>
+<td>oid</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>proowner</td>
+<td>oid</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>prolang</td>
+<td>oid</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>procost</td>
+<td>real</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>prorows</td>
+<td>real</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>provariadic</td>
+<td>oid</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>protransform</td>
+<td>regproc</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>proisagg</td>
+<td>boolean</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proiswindow</td>
+<td>boolean</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>prosecdef</td>
+<td>boolean</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proleakproof</td>
+<td>boolean</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>proisstrict</td>
+<td>boolean</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proretset</td>
+<td>boolean</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>provolatile</td>
+<td>"char"</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proparallel</td>
+<td>"char"</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>pronargs</td>
+<td>smallint</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pronargdefaults</td>
+<td>smallint</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>prorettype</td>
+<td>oid</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proargtypes</td>
+<td>oidvector</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>proallargtypes</td>
+<td>oid[]</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proargmodes</td>
+<td>"char"[]</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>proargnames</td>
+<td>text[]</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proargdefaults</td>
+<td>pg_node_tree</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>protrftypes</td>
+<td>oid[]</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>prosrc</td>
+<td>text</td>
+<td></td>
+<td></td>
+<td>false</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>probin</td>
+<td>text</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>proconfig</td>
+<td>text[]</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>proacl</td>
+<td>aclitem[]</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sectionseparator"></div>
+<!--  indexes  -->
+<div class="section" id="indexes">
+<div class="tableheader">
+<img src="./images/32/colindex.png" >
+Indexes - 1</div>
+<div id="indexestable">
+<table>
+<thead>
+<tr>
+<th>Name
+<th>Primary</th>
+<th>Unique</th>
+<th>Clustered</th>
+<th>Size</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">pg_proc_pkey
+<td valign="top">true</td>
+<td valign="top">true</td>
+<td valign="top">false</td>
+<td valign="top">8.0 KB</td>
+<td><pre>btree (oid)</pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sectionseparator"></div>
+<!--  foreign keys  -->
+<div class="section" id="foreignkeys">
+<div class="tableheader">
+<img src="./images/32/colfk.png" >
+Foreign keys - 6</div>
+<div id="foreignkeystable">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Keys</th>
+<th>Reference table</th>
+<th>Reference keys</th>
+<th>Match type</th>
+<th>Delete type</th>
+<th>Update type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pg_proc_proowner_fkey</td>
+<td>proowner</td>
+<td><a href="postgres_constrained_pg_catalog_table_pg_authid.html">pg_authid</a></td>
+<td></td>
+<td></td>
+<td>no action</td>
+<td>no action</td>
+<tr class="even">
+<td>pg_proc_prolang_fkey</td>
+<td>prolang</td>
+<td><a href="postgres_constrained_pg_catalog_table_pg_language.html">pg_language</a></td>
+<td></td>
+<td></td>
+<td>no action</td>
+<td>no action</td>
+<tr>
+<td>pg_proc_protransform_fkey</td>
+<td>protransform</td>
+<td><a href="postgres_constrained_pg_catalog_table_pg_type.html">pg_type</a></td>
+<td></td>
+<td></td>
+<td>no action</td>
+<td>no action</td>
+<tr class="even">
+<td>pg_proc_prorettype_fkey</td>
+<td>prorettype</td>
+<td><a href="postgres_constrained_pg_catalog_table_pg_type.html">pg_type</a></td>
+<td></td>
+<td></td>
+<td>no action</td>
+<td>no action</td>
+<tr>
+<td>pg_proc_pronamespace_fkey</td>
+<td>pronamespace</td>
+<td><a href="postgres_constrained_pg_catalog_table_pg_namespace.html">pg_namespace</a></td>
+<td></td>
+<td></td>
+<td>no action</td>
+<td>no action</td>
+<tr class="even">
+<td>pg_proc_provariadic_fkey</td>
+<td>provariadic</td>
+<td><a href="postgres_constrained_pg_catalog_table_pg_type.html">pg_type</a></td>
+<td></td>
+<td></td>
+<td>no action</td>
+<td>no action</td>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sectionseparator"></div>
+</div>
+<table class="footer">
+<tr><td align="left" width="33%">Author: DB Doc</td><td align="center" width="33%">Copyright 2014 - 2017 All Rights Reserved</td><td align="right">Created on Jun 12, 2017 2:27 AM</td></tr>
+</table>
+</body>
+</html>
