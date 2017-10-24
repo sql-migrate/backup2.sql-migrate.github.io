@@ -73,6 +73,12 @@ excerpt: Postgres Compare compares PostgreSQL database schema objects and writes
             Postgres Compare takes a snapshot of the server and stores it locally so you can easily keep track of changes or compare against old versions.
             Connections, comparisons and deployment scripts too are stored for re-use and reporting purposes.
         </p>
+        <p>
+            As an example imagine you have changed the datatype of a column in your test environment. Postgres Compare looks at the
+            <a href="https://www.postgresql.org/docs/current/static/catalog-pg-attribute.html">pg_attribute system catalog</a> and detects that the column has been changed compared to production.
+            You go ahead and generate a deployment script that saves you time and ensures you don't miss anything!
+            <pre>ALTER TABLE products ALTER COLUMN price TYPE numeric(10,2);</pre>
+        </p>
     </section>
 
     <div class="row">
