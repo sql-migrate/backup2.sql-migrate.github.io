@@ -29,8 +29,8 @@ excerpt: Postgres Compare compares PostgreSQL database schema objects and writes
     <section class="box special">
         <header class="major">
             <h2>Diff PostgreSQL schemas.<br/> Find differences and deploy changes quickly.</h2>
-            <p>Postgres Compare is a Postgres diff tool that automatically detects the changes made to your database and produces the SQL required to keep everything up to date. Increase visibility, reduce errors and save time with Postgres Compare.</p>
         </header>
+            <p>Postgres Compare is a Postgres diff tool that automatically detects the changes made to your database and produces the SQL required to keep everything up to date. Increase visibility, reduce errors and save time with Postgres Compare.</p>
     </section>
 
     <section id="learn-more" class="box special features">
@@ -58,6 +58,21 @@ excerpt: Postgres Compare compares PostgreSQL database schema objects and writes
                 <p>Create beautiful reports to illustrate the state of your environments. Store and share reports via your Postgres Compare account.</p>
             </section>
         </div>
+    </section>
+
+    <section class="box special">
+        <header class="major">
+            <h2>How does Postgres Compare compare?</h2>
+        </header>
+        <p>
+            PostgreSQL's system catalogs store everything there is to know about the server and the structures contained in it's databases.
+            Postgres Compare uses the system catalogs to determine the changes that have been made. The differences produce the CREATE, ALTER
+            and DELETE SQL that ensure the database is up to date.
+        </p>
+        <p>
+            Postgres Compare takes a snapshot of the server and stores it locally so you can easily keep track of changes or compare against old versions.
+            Connections, comparisons and deployment scripts too are stored for re-use and reporting purposes.
+        </p>
     </section>
 
     <div class="row">
