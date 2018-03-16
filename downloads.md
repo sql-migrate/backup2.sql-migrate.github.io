@@ -7,7 +7,8 @@ permalink: /downloads
 - The macOS build is being blocked by gatekeeper, people report not being able to save entities. Until the build is signed you can get around this by running 'xattr -d com.apple.quarantine *' in the app directory
 
 <h3>v1.0.1-alpha (March 16th 2018)</h3>
-  - Fixed: reading pg_catalog.pg_index failed where indpred was not NULL. This resulted in comparisons and snapshots seemingly running forever.
+  - Fixed: Comparisons and snapshots seemingly running forever. This was caused by an issue reading pg_catalog.pg_index where indpred was not NULL. The app would throw an exception but not inform the
+  ui that the task had failed.
   <ul class="alt">
       <li>
         <h4>
