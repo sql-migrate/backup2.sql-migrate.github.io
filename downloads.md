@@ -32,7 +32,7 @@ permalink: /downloads
           href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.2-alpha.zip">Linux</a>
         </h4>
       </li>
-  </ul
+  </ul>
 
 <h3>v1.0.1-alpha (March 16th 2018)</h3>
   - Fixed: Comparisons and snapshots seemingly running forever. This was caused by an issue reading pg_catalog.pg_index where indpred was not NULL. The app would throw an exception but not inform the
