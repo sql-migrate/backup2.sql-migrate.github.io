@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.postgrescompare.com</loc>
-        <lastmod>2017-04-22</lastmod>
+        <lastmod>2018-03-15</lastmod>
         <changefreq>always</changefreq>
         <priority>0.7</priority>
     </url>
@@ -11,6 +11,12 @@
         <lastmod>2017-04-22</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.postgrescompare.com/downloads</loc>
+        <lastmod>2018-03-19</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.postgrescompare.com/about</loc>
