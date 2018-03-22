@@ -3,35 +3,40 @@ layout: page
 title: Alpha builds for download
 permalink: /downloads
 ---
--  Unzip the file and run the PostgresCompare executable contained in the resulting folder.
+- Unzip the file and run the PostgresCompare executable contained in the resulting folder.
+- Hit an error? Send me a pg_dump of your schema so I can recreate and fix it! <a href="mailto:alpha@postgrescompare.com">alpha@postgrescompare.com</a>
 - The macOS build is being blocked by gatekeeper, people report not being able to save entities. Until the build is signed you can get around this by running 'xattr -d com.apple.quarantine *' in the app directory
 
-<h3>v1.0.3-alpha (March 19th 2018)</h3>
-  - Fixed: Test connection button remains checked after closing New Environment modal
-  - Added: Logging of exceptions during snapshot, comparison, script and deploy to file
+
+<h3>v1.0.4-alpha (March 21st 2018)</h3>
+  - Fixed: Internal triggers (to support constraints) causing tables to appear as different
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.3-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.3-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.4-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.4-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.3-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.3-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.4-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.4-alpha.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.1-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.1-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.4-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.4-alpha.zip">Linux</a>
         </h4>
       </li>
   </ul>
+
+<h3>v1.0.3-alpha (March 19th 2018)</h3>
+  - Fixed: Test connection button remains checked after closing New Environment modal
+  - Added: Logging of exceptions during snapshot, comparison, script and deploy to file
 
 <h3>v1.0.2-alpha (March 18th 2018)</h3>
   - Fixed: Comparison an snapshot tasks not informing the UI when an error occured.
