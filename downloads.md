@@ -40,7 +40,6 @@ permalink: /downloads
   - Added: snapshot and comparison of Views
   - Added: basic snapshot of Triggers
   - Added: ability to report an error via email
-  </ul>
 
 <h3>v1.0.4-alpha (March 21st 2018)</h3>
   - Fixed: Internal triggers (to support constraints) causing tables to appear as different
