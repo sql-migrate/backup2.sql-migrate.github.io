@@ -7,33 +7,39 @@ permalink: /downloads
 - Hit an error? Send me a pg_dump of your schema so I can recreate and fix it! <a href="mailto:alpha@postgrescompare.com">alpha@postgrescompare.com</a>
 - The macOS build is being blocked by gatekeeper, people report not being able to save entities. Until the build is signed you can get around this by running 'xattr -d com.apple.quarantine *' in the app directory
 
+<h3>v1.0.6-alpha (March 27th 2018)</h3>
+  - Added: better scripting of Triggers
+  - Added: basic comparison of Triggers
+  - Fixed: start comparison from dropdown menu on list of environments
+  <ul class="alt">
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.6-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.6-alpha.zip">macOS</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.6-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.6-alpha.zip">Windows</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.6-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.6-alpha.zip">Linux</a>
+        </h4>
+      </li>
+  </ul>
+
 <h3>v1.0.5-alpha (March 26th 2018)</h3>
   - Fixed: attempting to read from pg_authid throwing an error, replaced with pg_roles
   - Added: snapshot and comparison of Views
   - Added: basic snapshot of Triggers
   - Added: ability to report an error via email
-  <ul class="alt">
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.5-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.5-alpha.zip">macOS</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.5-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.5-alpha.zip">Windows</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.5-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.5-alpha.zip">Linux</a>
-        </h4>
-      </li>
   </ul>
 
 <h3>v1.0.4-alpha (March 21st 2018)</h3>
