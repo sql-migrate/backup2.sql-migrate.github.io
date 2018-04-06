@@ -3,8 +3,35 @@ layout: page
 title: Alpha builds for download
 permalink: /downloads
 ---
-- Unzip the file and run the PostgresCompare executable contained in the resulting folder.
-- Hit an error? Send me a pg_dump of your schema so I can recreate and fix it! <a href="mailto:alpha@postgrescompare.com">alpha@postgrescompare.com</a>
+Unzip the file and run the PostgresCompare executable contained in the resulting folder. Hit an error? Send me a pg_dump of your schema so I can recreate and fix it! <a href="mailto:alpha@postgrescompare.com">alpha@postgrescompare.com</a>
+
+
+<h3>v1.0.8-alpha (April 5th 2018)</h3>
+  - Fixed: 'System.InvalidCastException: Object must implement IConvertible.' error
+  <ul class="alt">
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.8-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.8-alpha.zip">macOS</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.8-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.8-alpha.zip">Windows</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.8-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.8-alpha.zip">Linux</a>
+        </h4>
+      </li>
+  </ul>
+
 
 <h3>v1.0.7-alpha (April 2nd 2018)</h3>
   - Added: Persistence of data across builds
@@ -12,29 +39,6 @@ permalink: /downloads
   - Fixed: Triggers appearing in every schema
   - Fixed: 'Can't convert infinite timestamptz values to DateTime' error
   - Fixed: macOS build not saving environments
-  <ul class="alt">
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.7-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.7-alpha.zip">macOS</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.7-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.7-alpha.zip">Windows</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.7-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.7-alpha.zip">Linux</a>
-        </h4>
-      </li>
-  </ul>
 
 <h3>v1.0.6-alpha (March 27th 2018)</h3>
   - Added: better scripting of Triggers
