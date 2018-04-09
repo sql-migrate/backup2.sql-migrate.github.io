@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Alpha builds for download
+title: Alpha downloads
 permalink: /downloads
 ---
 Unzip the file and run the PostgresCompare executable contained in the resulting folder. Hit an error? Send me a pg_dump of your schema so I can recreate and fix it! <a href="mailto:alpha@postgrescompare.com">alpha@postgrescompare.com</a>
