@@ -7,7 +7,7 @@ Unzip the file and run the PostgresCompare executable contained in the resulting
 
 
 <h3>v1.0.11-alpha (April 12th 2018)</h3>
-  - Added: Basic Function comparison and snapshotting
+  - Added: basic Function comparison and snapshotting
   - Changed: excluded pg_catalog procedures from queries for better performance
 
   <ul class="alt">
