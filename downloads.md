@@ -6,33 +6,37 @@ permalink: /downloads
 Unzip the file and run the PostgresCompare executable contained in the resulting folder. Hit an error? Send me a pg_dump of your schema so I can recreate and fix it! <a href="mailto:alpha@postgrescompare.com">alpha@postgrescompare.com</a>
 
 
-<h3>v1.0.10-alpha (April 10th 2018)</h3>
-  - Fixed: SchemaName throwing an error on script compare
-  - Fixed: incorrect default for columns
+<h3>v1.0.11-alpha (April 12th 2018)</h3>
+  - Added: Basic Function comparison and snapshotting
+  - Changed: excluded pg_catalog procedures from queries for better performance
+
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.10-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.10-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.11-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.11-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.10-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.10-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.11-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.11-alpha.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.10-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.10-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.11-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.11-alpha.zip">Linux</a>
         </h4>
       </li>
   </ul>
 
+<h3>v1.0.10-alpha (April 10th 2018)</h3>
+  - Fixed: SchemaName throwing an error on script compare
+  - Fixed: incorrect default for columns
 
 <h3>v1.0.9-alpha (April 8th 2018)</h3>
   - Fixed: objects being matched from different schemas
