@@ -3,11 +3,8 @@ layout: page
 title: Alpha downloads
 permalink: /downloads
 ---
-Unzip the file and run the PostgresCompare executable contained in the resulting folder. Hit an error? Send me a pg_dump of your schema so I can recreate and fix it! <a href="mailto:alpha@postgrescompare.com">alpha@postgrescompare.com</a>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f-EIOIxFQ2g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <h3>v1.0.13-alpha (April 15th 2018)</h3>
-  - Added: comparison of Roles/Users
-
   <ul class="alt">
       <li>
         <h4>
@@ -31,6 +28,8 @@ Unzip the file and run the PostgresCompare executable contained in the resulting
         </h4>
       </li>
   </ul>
+  - Added: comparison of Roles/Users
+
 
 
 <h3>v1.0.12-alpha (April 12th 2018)</h3>
