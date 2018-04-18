@@ -3,7 +3,6 @@ layout: page
 title: Alpha downloads
 permalink: /downloads
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f-EIOIxFQ2g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <h3>v1.0.14-alpha (April 17th 2018)</h3>
   - Added: comparison of Indexes
@@ -30,6 +29,8 @@ permalink: /downloads
         </h4>
       </li>
   </ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f-EIOIxFQ2g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <h3>v1.0.13-alpha (April 15th 2018)</h3>
   - Added: comparison of Roles/Users
