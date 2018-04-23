@@ -3,7 +3,7 @@ layout: post
 title: The path to beta
 ---
 
-Its been a little over a month since the alpha of PostgresCompare started and, thankfully, I've received a lot of feedback as to how I can improve the application. To help clear up how I'm going to get from alpha to beta and beyond so I'm detailing here the work I am going to tackle before taking that next step.
+Its been a little over a month since the alpha of PostgresCompare started and, thankfully, I've received a lot of feedback as to how I can improve the application. To help clear up how I'm going to get from alpha to beta and beyond I'm detailing here the work I am going to tackle before taking that next step.
 
 #### Database object types
 

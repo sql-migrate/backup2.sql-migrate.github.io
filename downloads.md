@@ -4,33 +4,37 @@ title: Alpha downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.14-alpha (April 17th 2018)</h3>
-  - Added: comparison of Indexes
+<h3>v1.0.15-alpha (April 21st 2018)</h3>
+  - Added: comparison of Schemas
+  - Fixed: support for PostgreSQL 9.4
+  - Fixed: toast tables and indexes appearing in comparison
+  - Changed: removed db objects other than connected database
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.14-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.14-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.15-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.15-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.14-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.14-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.15-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.15-alpha.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.14-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.14-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.15-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.15-alpha.zip">Linux</a>
         </h4>
       </li>
   </ul>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f-EIOIxFQ2g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<h3>v1.0.14-alpha (April 17th 2018)</h3>
+  - Added: comparison of Indexes
 
 <h3>v1.0.13-alpha (April 15th 2018)</h3>
   - Added: comparison of Roles/Users
