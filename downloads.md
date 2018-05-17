@@ -4,34 +4,37 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.17-alpha (May 7th 2018)</h3>
-  - Changed: buttons now available alongside each other
-  - Fixed: constraint indexes appearing in comparison
-  - Changed: improved performance of snapshots and comparison
+<h3>v1.0.18-alpha (May 17th 2018)</h3>
+  - Improved error reporting
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.17-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.17-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.18-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.18-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.17-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.17-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.18-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.18-alpha.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.17-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.17-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.18-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.18-alpha.zip">Linux</a>
         </h4>
       </li>
   </ul>
+
+<h3>v1.0.17-alpha (May 7th 2018)</h3>
+  - Changed: buttons now available alongside each other
+  - Fixed: constraint indexes appearing in comparison
+  - Changed: improved performance of snapshots and comparison
 
 <h3>v1.0.16-alpha (April 29th 2018)</h3>
   - Added: comparison of Composite Types
