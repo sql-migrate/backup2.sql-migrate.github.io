@@ -4,32 +4,38 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.18-alpha (May 17th 2018)</h3>
-  - Improved error reporting
+
+<h3>v1.0.19-alpha (June 11th 2018)</h3>
+  - Added projects
+  - Added editable environments
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.18-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.18-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.19-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.19-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.18-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.18-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.19-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.19-alpha.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.18-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.18-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.19-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.19-alpha.zip">Linux</a>
         </h4>
       </li>
   </ul>
+
+
+<h3>v1.0.18-alpha (May 17th 2018)</h3>
+  - Improved error reporting
 
 <h3>v1.0.17-alpha (May 7th 2018)</h3>
   - Changed: buttons now available alongside each other
