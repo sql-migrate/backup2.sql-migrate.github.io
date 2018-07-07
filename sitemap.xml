@@ -60,9 +60,33 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
-     <url>
+    <url>
         <loc>https://www.postgrescompare.com/2017/06/11/pg_catalog_constraints.html</loc>
         <lastmod>2017-06-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.postgrescompare.com/2018/01/11/sneak-preview.html</loc>
+        <lastmod>2018-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+        <url>
+        <loc>https://www.postgrescompare.com/2018/04/16/alpha_to_beta.html</loc>
+        <lastmod>2018-04-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+        <url>
+        <loc>https://www.postgrescompare.com/2018/06/16/getting_started.html</loc>
+        <lastmod>2018-06-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+        <url>
+        <loc>https://www.postgrescompare.com/2018/07/07/new_script.html</loc>
+        <lastmod>2018-07-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
