@@ -29,7 +29,7 @@ When the comparison is finished, click on the notification to view the result an
 
 #### 4. Create an update script
 
-The scripts tab stores generated SQL scripts that can be used to update a database with new, altered or dropped objects. When viewing a comparison, click the "Script..." button to create a new script, include the changes you want and click "Save".
+The new script window helps you create an update script. Click the "Deployment..." button to open the window and preview your script.
 
 <img width="700px" alt="Create script" src="https://www.postgrescompare.com/images/script.png">
 
