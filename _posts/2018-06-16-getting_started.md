@@ -31,7 +31,7 @@ When the comparison is finished, click on the notification to view the result an
 
 The new script window helps you create an update script. Click the "Deployment..." button to open the window and preview your script.
 
-<img width="700px" alt="Create script" src="https://www.postgrescompare.com/images/script.png">
+<img width="700px" alt="Create script" src="https://www.postgrescompare.com/images/new_script_preview.png">
 
 #### 5. Deploy the changes
 
