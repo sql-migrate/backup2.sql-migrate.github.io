@@ -4,7 +4,7 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.24-alpha (Septemeber 3rd 2018)</h3>
+<h3>v1.0.24-alpha (September 3rd 2018)</h3>
   - Performance improvements
   - Added progress reporting to notifications
   - Defaults and placeholders added to new environment and new project forms
