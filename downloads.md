@@ -4,36 +4,41 @@ title: Downloads
 permalink: /downloads
 ---
 
-
-<h3>v1.0.23-alpha (August 26th 2018)</h3>
-  - Replace tables with cards for environments, projects, comparisons, deployments and snapshots
-  - Added schema name to comparison and new script pages
-  - Fixed v11 snapshotting due to removed attributes
+<h3>v1.0.24-alpha (Septemeber 3rd 2018)</h3>
+  - Performance improvements
+  - Added progress reporting to notifications
+  - Defaults and placeholders added to new environment and new project forms
+  - Removed snapshots tab
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.23-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.23-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.24-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.24-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.23-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.23-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.24-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.24-alpha.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.23-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.23-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.24-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.24-alpha.zip">Linux</a>
         </h4>
       </li>
   </ul>
 
+
+<h3>v1.0.23-alpha (August 26th 2018)</h3>
+  - Replace tables with cards for environments, projects, comparisons, deployments and snapshots
+  - Added schema name to comparison and new script pages
+  - Fixed v11 snapshotting due to removed attributes
 
 <h3>v1.0.22-alpha (August 19th 2018)</h3>
   - Added deployment step to new script window
