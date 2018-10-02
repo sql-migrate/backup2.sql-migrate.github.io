@@ -4,6 +4,36 @@ title: Downloads
 permalink: /downloads
 ---
 
+<h3>v1.0.27-alpha (October 1st 2018)</h3>
+  - Added option to ignore whitespace differences when comparing functions
+  - Added more detailed progress reporting
+  - Added deployment of functions
+  - Fixed bug where serial columns were considered different due to their default value differing
+
+  <ul class="alt">
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.27-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.27-alpha.zip">macOS</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.27-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.27-alpha.zip">Windows</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.27-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.27-alpha.zip">Linux</a>
+        </h4>
+      </li>
+  </ul>
+
 <h3>v1.0.26-alpha (September 23rd 2018)</h3>
   - Added dropdown selects to filter fields on comparison screen
   - Added "Most Recent" and "Previous" to comparison and deployment list
@@ -12,31 +42,6 @@ permalink: /downloads
   - Changed "Deployment..." CTAs to "Script.." so it's not so scary :)
   - Improved performance of comparison and deployments list fetching
   - Fixed issue where removing system triggers at snapshot time would cause an exception later when comparing
-
-  <ul class="alt">
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.26-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.26-alpha.zip">macOS</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.26-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.26-alpha.zip">Windows</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.26-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.26-alpha.zip">Linux</a>
-        </h4>
-      </li>
-  </ul>
-
 
 <h3>v1.0.25-alpha (September 9th 2018)</h3>
   - Added searchable/sortable table to the comparison and deployments screens
