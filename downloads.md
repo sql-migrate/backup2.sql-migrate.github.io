@@ -12,7 +12,7 @@ permalink: /downloads
         <h4>
           <a class="post-link"
           onclick="var that=this;ga('send', 'event','Download','macOS 1.0.31-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.31-alpha.zip">macOS</a>
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_v1.0.31-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
