@@ -4,37 +4,42 @@ title: Downloads
 permalink: /downloads
 ---
 
+<h3>v1.0.33-alpha (December 31st 2018)</h3>
+  - Fixed issue where script window would not return with result
+  - Fixed issue with reading sequences on versions < 10
+  - Added icons to comparison view
+
+  <ul class="alt">
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.33-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.33-alpha.zip">macOS</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.33-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.33-alpha.zip">Windows</a>
+        </h4>
+      </li>
+      <li>
+        <h4>
+          <a class="post-link"
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.33-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.33-alpha.zip">Linux</a>
+        </h4>
+      </li>
+  </ul>
+
+
 <h3>v1.0.32-alpha (December 26th 2018)</h3>
   - Added comparison of access methods, casts, conversions, event triggers, foreign data wrappers, operator families
   - Added comparison of tablespaces, foreign servers, text search parsers, text search templates, text search configs
   - Added comparison of text search dictionaries, user mappings, publications, subscriptions, statistics, policies
   - Added comparison enums, collations, sequences, operators and foreign tables
   - Fixed issue showing UTC time on artifacts instead of local time
-
-  <ul class="alt">
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.32-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.32-alpha.zip">macOS</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.32-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.32-alpha.zip">Windows</a>
-        </h4>
-      </li>
-      <li>
-        <h4>
-          <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.32-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.32-alpha.zip">Linux</a>
-        </h4>
-      </li>
-  </ul>
-
 
 <h3>v1.0.31-alpha (November 22nd 2018)</h3>
   - Fix PostgreSQL 9.4
