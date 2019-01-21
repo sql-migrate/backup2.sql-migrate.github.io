@@ -4,33 +4,37 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.35-alpha (January 8th 2019)</h3>
-  - Fix null reference exception when comparison single schemas
+
+<h3>v1.0.36-alpha (January 20th 2019)</h3>
+  - Add option to ignore column order
+  - Add option to ignore table partitions
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.35-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.35-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.36-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.36-alpha.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.35-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.35-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.36-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.36-alpha.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.35-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.35-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.36-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.36-alpha.zip">Linux</a>
         </h4>
       </li>
   </ul>
 
+<h3>v1.0.35-alpha (January 8th 2019)</h3>
+  - Fix null reference exception when comparing single schemas
 
 
 <h3>v1.0.34-alpha (January 6th 2019)</h3>
