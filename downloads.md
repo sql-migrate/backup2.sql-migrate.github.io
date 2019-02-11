@@ -4,34 +4,39 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.38-alpha (February 3rd 2019)</h3>
-  - Make comparisons and deployments cancellable
-  - Add filter for just different objects
+<h3>v1.0.39-beta (February 10th 2019)</h3>
+  - Add option to ignore object owner
+  - Add filter to exclude tables that match a pattern
+  - Fix error while querying pg_partitioned_table
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.38-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.38-alpha.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.39-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.39-beta.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.38-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.38-alpha.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.39-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.39-beta.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.38-alpha',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.38-alpha.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.39-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.39-beta.zip">Linux</a>
         </h4>
       </li>
   </ul>
 
+
+<h3>v1.0.38-alpha (February 3rd 2019)</h3>
+  - Make comparisons and deployments cancellable
+  - Add filter for just different objects
 
 <h3>v1.0.37-alpha (January 23rd 2019)</h3>
   - Fix issue querying pg_partitioned_table pre v10
