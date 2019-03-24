@@ -4,39 +4,47 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.42-beta (March 15th 2019)</h3>
-  - Added overview tab to comparison view
-  - Fixed issue where delete was not cascading correctly
-  - Added tablespace scripting to tables
-  - Added ability to alter varchar size
-  - Allow triggers with same name but different table
+<h3>v1.0.43-beta (March 24th 2019)</h3>
+  - Added friendly names and pie chart to comparison tiles
+  - Fixed issue creating script where Snapshot navigation property could not be found
+  - Added button to check all connections at once
+  - Added button to clear all previous comparisons
+  - Aligned colours everywhere to have same meaning 'new, different, dropeed, identical'
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.42-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.42-beta.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.43-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.43-beta.zip">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.42-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.42-beta.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.43-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.43-beta.zip">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.42-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.42-beta.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.43-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.43-beta.zip">Linux</a>
         </h4>
       </li>
   </ul>
 
 
 
+
+
+<h3>v1.0.42-beta (March 15th 2019)</h3>
+  - Added overview tab to comparison view
+  - Fixed issue where delete was not cascading correctly
+  - Added tablespace scripting to tables
+  - Added ability to alter varchar size
+  - Allow triggers with same name but different table
 
 <h3>v1.0.41-beta (February 24th 2019)</h3>
   - Added auto-update for macOS
