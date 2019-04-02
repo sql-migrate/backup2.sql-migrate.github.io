@@ -4,26 +4,24 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.43-beta (March 24th 2019)</h3>
-  - Added friendly names and pie chart to comparison tiles
-  - Fixed issue creating script where Snapshot navigation property could not be found
-  - Added button to check all connections at once
-  - Added button to clear all previous comparisons
-  - Aligned colours everywhere to have same meaning 'new, different, dropeed, identical'
+<h3>v1.0.44-beta (April 2nd 2019)</h3>
+  - Added auto-update to the Windows build
+  - Signed the Windows executables
+  - Now shipping installers for Windows and mac
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.43-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.43-beta.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.44-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.44-beta.dmg">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.43-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-win32-x64_1.0.43-beta.zip">Windows</a>
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.44-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="https://s3.amazonaws.com/pgcompare-updates/PostgresCompareSetup.exe">Windows</a>
         </h4>
       </li>
       <li>
@@ -37,6 +35,12 @@ permalink: /downloads
 
 
 
+<h3>v1.0.43-beta (March 24th 2019)</h3>
+  - Added friendly names and pie chart to comparison tiles
+  - Fixed issue creating script where Snapshot navigation property could not be found
+  - Added button to check all connections at once
+  - Added button to clear all previous comparisons
+  - Aligned colours everywhere to have same meaning 'new, different, dropeed, identical'
 
 
 <h3>v1.0.42-beta (March 15th 2019)</h3>
