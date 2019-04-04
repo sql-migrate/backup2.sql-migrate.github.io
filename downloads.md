@@ -13,8 +13,8 @@ permalink: /downloads
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.43-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-darwin-x64_1.0.43-beta.zip">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.44-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.44-beta.dmg">macOS</a>
         </h4>
       </li>
       <li>
