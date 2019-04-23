@@ -7,8 +7,11 @@ layout: default
     <h2>{{ page.title }}</h2>
   </header>
 
+
+  {%if content %}
   <div class="box">
     {{ content }}
   </div>
+  {% endif %}
 
 </article>
