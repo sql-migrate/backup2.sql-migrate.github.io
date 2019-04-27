@@ -4,17 +4,14 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.44-beta (April 2nd 2019)</h3>
-  - Added auto-update to the Windows build
-  - Signed the Windows executables
-  - Now shipping installers for Windows and mac
 
+<h3>v1.0.45 (April 27th 2019)</h3>
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.44-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.44-beta.dmg">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.45',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.45.dmg">macOS</a>
         </h4>
       </li>
       <li>
@@ -34,6 +31,10 @@ permalink: /downloads
   </ul>
 
 
+<h3>v1.0.44-beta (April 2nd 2019)</h3>
+  - Added auto-update to the Windows build
+  - Signed the Windows executables
+  - Now shipping installers for Windows and mac
 
 <h3>v1.0.43-beta (March 24th 2019)</h3>
   - Added friendly names and pie chart to comparison tiles
