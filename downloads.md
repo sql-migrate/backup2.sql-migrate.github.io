@@ -17,15 +17,15 @@ permalink: /downloads
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.44-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.45',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
           href="https://s3.amazonaws.com/pgcompare-updates/PostgresCompareSetup.exe">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.43-beta',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.43-beta.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.45',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.45.zip">Linux</a>
         </h4>
       </li>
   </ul>
