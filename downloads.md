@@ -5,30 +5,34 @@ permalink: /downloads
 ---
 
 
-<h3>v1.0.45 (April 27th 2019)</h3>
+<h3>v1.0.46 (April 29th 2019)</h3>
+  - Fixed issue scripting precision and scale differences
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.45',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.45.dmg">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.46',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.46.dmg">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.45',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.46',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
           href="https://s3.amazonaws.com/pgcompare-updates/PostgresCompareSetup.exe">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.45',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.45.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.46',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.46.zip">Linux</a>
         </h4>
       </li>
   </ul>
+
+<h3>v1.0.45 (April 27th 2019)</h3>
+  - Added licensing
 
 
 <h3>v1.0.44-beta (April 2nd 2019)</h3>
