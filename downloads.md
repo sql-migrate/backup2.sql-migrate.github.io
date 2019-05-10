@@ -4,36 +4,39 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.47 (May 5th 2019)</h3>
-  - Fix graphs on deployment page
-  - Fix recompare after deployment
-  - Add filters to script page
-  - Start Data Compare beta
+<h3>v1.0.48 (May 10th 2019)</h3>
+  - Add "Object Types to Compare" project tab
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.47',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.47.dmg">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.48',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.48.dmg">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.47',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.48',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
           href="https://s3.amazonaws.com/pgcompare-updates/PostgresCompareSetup.exe">Windows</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.46',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.46.zip">Linux</a>
+          onclick="var that=this;ga('send', 'event','Download','Linux 1.0.48',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare-linux-x64_1.0.48.zip">Linux</a>
         </h4>
       </li>
   </ul>
 
+
+<h3>v1.0.47 (May 5th 2019)</h3>
+  - Fix graphs on deployment page
+  - Fix recompare after deployment
+  - Add filters to script page
+  - Start Data Compare beta
 
 <h3>v1.0.46 (April 29th 2019)</h3>
   - Fixed issue scripting precision and scale differences
