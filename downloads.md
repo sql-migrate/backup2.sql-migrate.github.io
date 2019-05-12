@@ -13,7 +13,7 @@ permalink: /downloads
         <h4>
           <a class="post-link"
           onclick="var that=this;ga('send', 'event','Download','macOS 1.0.49',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.9.dmg">macOS</a>
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.49.dmg">macOS</a>
         </h4>
       </li>
       <li>
