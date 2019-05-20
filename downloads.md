@@ -4,22 +4,22 @@ title: Downloads
 permalink: /downloads
 ---
 
-<h3>v1.0.49 (May 12th 2019)</h3>
-  - Show spinner when checking for updates
-  - Add "Show identical objects" link
+<h3>v1.0.50 (May 19th 2019)</h3>
+  - Add Materialized View deployment
+  - Add Enum deployment
 
   <ul class="alt">
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.49',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
-          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.49.dmg">macOS</a>
+          onclick="var that=this;ga('send', 'event','Download','macOS 1.0.50',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          href="http://downloads.postgrescompare.com/builds/PostgresCompare_1.0.50.dmg">macOS</a>
         </h4>
       </li>
       <li>
         <h4>
           <a class="post-link"
-          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.49',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
+          onclick="var that=this;ga('send', 'event','Download','Windows 1.0.50',this.href);setTimeout(function(){location.href=that.href;},200);return false;"
           href="https://s3.amazonaws.com/pgcompare-updates/PostgresCompareSetup.exe">Windows</a>
         </h4>
       </li>
@@ -32,6 +32,11 @@ permalink: /downloads
       </li>
   </ul>
 
+
+
+<h3>v1.0.49 (May 12th 2019)</h3>
+  - Show spinner when checking for updates
+  - Add "Show identical objects" link
 
 <h3>v1.0.48 (May 10th 2019)</h3>
   - Add "Object Types to Compare" project tab
